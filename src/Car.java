@@ -6,6 +6,10 @@ public class Car extends Vehicle {
         super(brand, year);
         this.model = model;
     }
+
+    public void info() {
+        System.out.println("Марка машины: " + this.brand + "Модель машины: " + this.model + "Год выпуска: " + this.year);
+    }
 }
 
 //Создайте класс Car, который будет являться дочерним для класса Vehicle.
