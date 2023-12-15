@@ -8,7 +8,7 @@ public class Car extends Vehicle {
     }
 
     public void info() {
-        System.out.println("Марка машины: " + this.brand + "Модель машины: " + this.model + "Год выпуска: " + this.year);
+        System.out.println("Марка машины: " + this.brand + ", " + "Модель машины: " + this.model + ", " + "Год выпуска: " + this.year);
     }
 }
 
